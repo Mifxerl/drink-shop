@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIP AND SAVOR</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="../images/logo.png" alt="Logo" class="logo">
+        </header>
+        <nav>           
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="offer.html">Offers</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="order.html">Order</a>
+        </nav>
+    <div class="order-page">
+
+        <h1>Place Your Order</h1>
+        <p>Your favourite drinks, just a click away!</p>
+
+        <form class="order-form">
+            <h2>Customer Details</h2>
+
+            <label>Full Name:</label>
+            <input type="text" name="fullname">
+
+            <label>Phone Number:</label>
+            <input type="text" name="phone">
+
+            <label>Email:</label>
+            <input type="email" name="email">
+
+            <h2>Order Details</h2>
+            <select name="drink">
+                <option>StrawBerry Bliss</option>
+                <option>Blueberry Delight</option>
+                <option>Mango Lassi</option>
+                <option>Matcha Magic</option>
+                <option>Matcha Latte</option>
+                <option>Matcha Frappe</option>
+                <option>Iced Coffee</option>
+                <option>Lemonade</option>
+                <option>Fruit Punch</option>
+            </select>
+
+            <h3>Select Size:</h3>
+            <input type="radio" name="size" value="Small"> Small
+            <input type="radio" name="size" value="Medium"> Medium
+            <input type="radio" name="size" value="Large"> Large
+
+
+            <h2>Order Type</h2>
+
+            <input type="radio" name="order-type" value="Pickup"> Pickup
+            <input type="radio" name="order-type" value="Delivery"> Delivery
+
+
+            <label>Delivery Address:</label>
+            <textarea name="address" rows="3"></textarea>
+
+
+            <h2>Payment Method</h2>
+
+            <input type="radio" name="payment" value="Cash"> Cash
+            <input type="radio" name="payment" value="Bank Transfer"> Bank Transfer
+
+
+            <br>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+    </body>
+</html>
+
