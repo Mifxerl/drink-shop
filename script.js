@@ -1,8 +1,8 @@
 
 let images = [
-    "../images/2.png",
-    "../images/Sip & Savour Fresh Fruit Drinks.png",
-    "../images/Sip & Savour Matcha Strawberry Drinks.png"
+    "2.png",
+    "Sip & Savour Fresh Fruit Drinks.png",
+    "Sip & Savour Matcha Strawberry Drinks.png"
 ];
 
 let currentImage = 0;
